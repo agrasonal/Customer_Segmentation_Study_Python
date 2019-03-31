@@ -8,6 +8,7 @@ This project analyzes past transactions data for a durable goods company and ide
 <li>This is a panel data set containing the transactions of 19,936 households made over the period from December 1998 to November 2004 at a major U.S. consumer electronics retailer.</li>
 <li>There are a total of 173,262 transactions, including purchases and returns of products as well as extended warranties.</li>
 <li>There are 16 product categories and 292 subcategories, ranging from big-ticket items such as televisions to small-ticket items such as CDs and batteries.</li>
+</ul>
 
 <h4><b>Methodology</b></h4>
 <ul>
@@ -20,14 +21,14 @@ This project analyzes past transactions data for a durable goods company and ide
 </ul>
 
 <h4><b>Analysis</b></h4>
-<u>Customer Segmentation</u>
+<p><u>Customer Segmentation</u></p>
 After analyzing the clustering results, we were able to identify three major customer segments:
 <ul>
 <li>In cluster 3, customers have bought recently, purchased frequently and also have highest monetary value. These are the loyal high value customers.</li>
 <li>In cluster 0, customers havent shopped since a long time, but made frequent high value purchases in the past. These are Infrequent High Value.</li>
 <li>In cluster 4, customers havent shopped since a long time, but made high value purchases in the past. These are Churned high value customers.</li>
 </ul><br>
-<u>Returns can be predicted based on 'Importance Scores' calculated for the Random Forest Classifier:</u><br>
+<p><u>Returns can be predicted based on 'Importance Scores' calculated for the Random Forest Classifier:</u></p>
 Key Variables of high importance (in order):
 <ul>
 <li>Unit Price</li>
