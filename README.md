@@ -1,4 +1,4 @@
-<h2<b>>Panel_Data_Analysis-Durable-Goods</b></h2>
+<h2><b>Panel_Data_Analysis-Durable-Goods</b></h2>
 
 <h4><b>Objective</b></h4>
 This project analyzes past transactions data for a durable goods company and identifies key customer segments using RFM analysis and clustering. It also identifies key predictors influencing customer return behavior using key classification methods.
